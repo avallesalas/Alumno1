@@ -30,14 +30,14 @@
 
 
     <servlet>
-        <servlet-name>MainServlet</servlet-name>
-        <servlet-class>biz.calavera.MainServlet</servlet-class>
+        <servlet-name>Alumno1</servlet-name>
+        <servlet-class>biz.calavera.Alumno1</servlet-class>
 
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/MainServlet</url-pattern>
+        <servlet-name>Alumno1</servlet-name>
+        <url-pattern>/Alumno1</url-pattern>
 
     </servlet-mapping>
 
