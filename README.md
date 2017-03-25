@@ -1,2 +1,2 @@
 # Alumno1
-Codigo Para el Grupo 1 de Pruebas
+Este es un repositorio para el primer grupo de alumnos que van a explorar el mundo del DevOps
