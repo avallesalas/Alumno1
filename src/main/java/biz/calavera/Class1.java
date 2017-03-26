@@ -15,7 +15,7 @@ public class Class1 {
 
           public String webMessage()
           {
-              return "<h1>" + strMsg + "</h1>";
+              return "<h2>" + strMsg + "</h2>";
           }
 
 

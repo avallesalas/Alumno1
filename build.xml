@@ -42,6 +42,7 @@
 
 	<target name="init">
 	        <pathconvert property="classpathProp" refid="Calavera.classpath"/>
+	        <pathconvert property="JUnitProp" refid="JUnit 4.libraryclasspath"/>
 		<echo>
 			Computer name is ${my_env.COMPUTERNAME}
 			Build time is ${time.stamp} UTC (e.g. US CT +6)
@@ -55,6 +56,7 @@
 			Build target is ${output}
 			Deployment target is ${deploy}
 		        Classpath is ${classpathProp}
+		        JUnitPath is ${JUnitProp}
 		</echo>
 		<mkdir dir="${output}"/>
 		<mkdir dir="${results}"/>
